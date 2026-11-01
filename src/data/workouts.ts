@@ -1,0 +1,62 @@
+import type { Workout } from '@/types';
+
+
+export const workouts: Workout[] = [
+  {
+    id: '1',
+    name: 'Bench Press',
+    muscle: 'chest',
+    sets: 3,
+    reps: 10,
+    weightKg: 60,
+    date: '2026-10-26',
+    notes: 'Felt strong today. Try 62.5 kg next time.',
+  },
+  {
+    id: '2',
+    name: 'Squat',
+    muscle: 'legs',
+    sets: 4,
+    reps: 8,
+    weightKg: 80,
+    date: '2026-10-24',
+  },
+  {
+    id: '3',
+    name: 'Deadlift',
+    muscle: 'back',
+    sets: 3,
+    reps: 5,
+    weightKg: 100,
+    date: '2026-10-22',
+    notes: 'Keep the back straight.',
+  },
+  {
+    id: '4',
+    name: 'Shoulder Press',
+    muscle: 'shoulders',
+    sets: 3,
+    reps: 12,
+    weightKg: 30,
+    date: '2026-10-20',
+  },
+  {
+    id: '5',
+    name: 'Bicep Curl',
+    muscle: 'arms',
+    sets: 3,
+    reps: 12,
+    weightKg: 15,
+    date: '2026-10-18',
+  },
+  {
+    id: '6',
+    name: 'Lat Pulldown',
+    muscle: 'back',
+    sets: 4,
+    reps: 10,
+    weightKg: 50,
+    date: '2026-10-16',
+    notes: 'Slow and controlled.',
+  },
+];
